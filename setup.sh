@@ -6,5 +6,5 @@ do
 	[[ $i == .DS_Store ]] && continue
 	[[ $i == .gitignore ]] && continue
 	
-	ln -s $HOME/dotfiles/$i $HOME/$i
+	ln -fs $HOME/dotfiles/$i $HOME/$i
 done 
