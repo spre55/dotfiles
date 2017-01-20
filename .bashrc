@@ -8,5 +8,7 @@ else
     alias ls='ls --color=auto'
 fi
 
+alias ks='ls'
+
 PS1="\[\033[0;31m\][\W/\h \t]\$ "
 
